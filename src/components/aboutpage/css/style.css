@@ -1,0 +1,38 @@
+.abt-hero{
+    background: url("https://image.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg");
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+.abt-img{
+    width: 45%;
+    display: grid;
+    place-items: center;
+}
+.abt-disc{
+    width: 48%;
+}
+.abt-disc h5{
+    margin: 20px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+.abt-disc marquee{
+    margin: 20px;
+}
+@media(max-width:600px){
+    .blog{
+     flex-direction: column;
+    }
+    .abt-img{
+        width: 80%;
+    }
+    .abt-disc{
+        width: 80%;
+    }
+    .abt-hero h1{
+        font-size: 30px;
+    }
+}

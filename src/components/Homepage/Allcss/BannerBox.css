@@ -1,0 +1,95 @@
+.sm-banners{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.sm-box {
+    padding: 10px;
+    background-image: url("https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg?t=st=1649949492~exp=1649950092~hmac=52d703c6f802261203bf860c47097a20dcb64c8ac4b2bad90551cffd161542c6&w=826");
+    background-repeat: no-repeat;
+    width: 48vw;
+    height: 45vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sm-box2{
+    background-image: url("https://img.freepik.com/free-photo/shopping-trolley-laptop_23-2147961909.jpg?w=740");
+}
+.sm-box h1{
+    font-size: 50px;
+}
+.sm-box p {
+    color: #626264;
+    margin: 10px;
+}
+.sm-box .btn{
+    padding: 10px 20px;
+    color: rgb(45, 16, 212);
+    background-color: transparent;
+    border: 1px solid rgb(45, 57, 219);
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(65, 68, 221);
+    color: #fff;
+}
+.banner3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:20px;
+}
+
+.banner-box{
+    width: 30vw;
+    height: 30vh;
+    background-image: url("https://img.freepik.com/free-vector/e-commerce-online-shopping-flat-illustration-suitable-web-banners_210682-45.jpg?w=740");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-box h2{
+margin-top: 10%;
+}
+.box2{
+    background-image: url("https://img.freepik.com/free-psd/online-shopping-with-mobile-shopping-elements-mockup-template_1150-38846.jpg?t=st=1649949492~exp=1649950092~hmac=e376a75d0bd0c1885f53e094ab4a70cb7126fc358ca278ad2109eb314b949af8&w=740");
+}
+.box3{
+    background-image: url("https://img.freepik.com/free-photo/woman-shopping-bags-copy-space_23-2148674356.jpg?w=826&t=st=1649955116~exp=1649955716~hmac=2ad6a2ab371bc0a7596553b137faf3b9136fa779e3b87b1c9f92d61c90bdf80e");
+}
+.banner-box h3{
+    margin-top: 0;
+    color: #0e44f8;
+}
+.flex-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ------------------------media queries-------------------- */
+@media(max-width:800px) {
+    .sm-box h1{
+        font-size: 35px;
+    }
+    .banner-box h3{
+        font-size: 20px;
+    }
+}
+@media(max-width:500px) {
+    .sm-banners{
+        flex-direction: column;
+    }
+    .sm-box {
+        width: 80%;
+        margin: 10px;
+    }
+    .banner3{
+        flex-direction: column;
+    }
+    .banner-box{
+        width: 80%;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,59 @@
+.newsletter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 100vw;
+    /* height: 20vh; */
+    background-image: url("https://img.freepik.com/free-vector/abstract-colorful-technology-dotted-wave-background_1035-17450.jpg?t=st=1649952102~exp=1649952702~hmac=1c5dbf8d6ceddc289c38dc6dcf460488aced2c1518aaddd4b287e5ce561692af&w=740") ;
+   background-repeat: no-repeat;
+   background-color: rgba(0,0,0,0.08);
+   object-fit: cover;
+   background-position: center;
+   background-size: cover;
+}
+.news-text{
+    color: #fff;
+}
+.news-text h4{
+    font-size: 30px;
+}
+.news-text p{
+    color: rgb(194, 183, 183);
+}
+.news-text span{
+    color: yellow;
+}
+.form input{
+   padding: 10px 50px;
+   border-radius: 10px;
+}
+.signup-btn{
+    padding: 10px 20px;
+    color: rgb(243, 242, 248);
+    background-color: rgb(31, 170, 43);
+    border: 1px solid rgb(45, 57, 219);
+    font-weight: 700;
+    border-radius: 10px;
+}
+.signup-btn:hover{
+    background-color: rgb(65, 68, 221);
+    color: #fff;
+}
+@media (max-width:600px){
+    .news-text h4{
+        font-size: 20px;
+    }
+}
+@media (max-width:500px){
+    .newsletter{
+        flex-direction: column;
+        width: 90%;
+        /* height: 30vh; */
+        padding-left: 20px;
+        margin: auto;
+    }
+    .form input{
+        padding: 8px 40px;
+    }
+}

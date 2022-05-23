@@ -1,0 +1,97 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    /* height: 40vh; */
+    text-transform: capitalize;
+}
+.contact h2{
+    margin: 10px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.contact span{
+    color: #0b0b0c;
+    font-size: 20px;
+    font-weight: 700;
+}
+.contact div{
+    margin: 2px;
+}
+.contact small{
+    font-size: 18px;
+    color: #626264;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+
+}
+.about ul li{
+    color: #626264;
+    margin: 5px;
+}
+.my-account ul li{
+    color: #626264;
+    margin: 5px;
+}
+.icons{
+    font-size: 20px;
+    margin: 5px;
+    
+}
+.icons a{
+    color: #0b0b0c;
+}
+.copy-right{
+    margin: auto;
+    text-align: center;
+    color: #e6e6f5;
+    background: #54545c;
+    height: 20px;
+}
+/* --------------------------------media query ---------------------------- */
+@media (max-width:600px){
+    .contact span{
+        font-size: 18px;
+    }
+    .contact small{
+        font-size: 16px;
+    }
+    .icons a{
+       margin: 5px;
+    }
+    .fa-facebook{
+      background-color: rgb(245, 241, 241);
+      color: blue;
+    }
+    .fa-instagram-square{
+       color: #ec370a;
+       background-color: #fff;
+    }
+    .fa-youtube{
+        color: red;
+        background-color: #fff;
+    } 
+    .fa-twitter-square{
+        color: rgb(10, 149, 192);
+        background-color: #fff;
+    }             
+}
+@media (max-width:500px){
+    .footer{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .copy-right{
+        height: 30px;
+    }
+    
+}

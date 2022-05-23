@@ -1,0 +1,110 @@
+.shop-header{
+    background: url("https://img.freepik.com/free-photo/colorful-paper-bags-placed-table_1150-18774.jpg?t=st=1650018932~exp=1650019532~hmac=59baa1995330678bfca48370564f45bca6ba36f4b3081929b6034a804d9eb06c&w=740") center;
+    width: 100vw;
+    height: 200px;
+    /* position: relative;
+    margin-top: 80px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shop-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+}
+.shop-header h1{
+    font-size: 40px;
+    margin-top: 30px;
+}
+/*  ----------------------pagination--------------------------- */
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.pagination a.number{
+    background-color: #0e44f8;
+    color: #fff;
+    padding: 10px 15px;
+}
+.pagination a.icon{
+    background-color: #0e44f8;
+    color: #fff;
+    padding: 10px 15px;
+}
+/* -------------------------------------sproduct page-------------------------- */
+.sproduct{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pro-dis{
+    width: 48vw;
+    height: 90vh;
+}
+.images{
+    width: 48vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #081; */
+}
+.main-img{
+    width: 90%;
+    height: 80%;
+   
+}
+.main-img img{
+    width: 90%;
+    height: 100%;
+    background-size:center ;
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.small-img-grp{
+    margin: 5px;
+    width: 90%;
+    height: 20%;
+}
+.small-img{
+    width: 22%;
+    height: 100%;
+}
+.pro-dis .name{
+    margin: 30px 0 20px 0;
+}
+.pro-dis .price{
+    margin: 10px 0;
+}
+.pro-dis #size{
+    margin:0 0 10px;
+    padding: 5px 10px;
+}
+.quatitiy-cart #quantity{
+    padding: 5px;
+}
+.pro-s-btn{
+    margin: 10px 0 0;
+    padding: 8px 10px;
+    background-color: #0e44f8;
+    color: #fff;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+}
+.h-detail{
+    margin: 20px 0;
+}
+.pro-para{
+    letter-spacing: 1px;
+    text-align: justify;
+    color: #54545c;
+}
