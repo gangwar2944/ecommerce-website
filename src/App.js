@@ -16,6 +16,7 @@ function App() {
       <div className='app'>
         <BrowserRouter>
           <Routes>
+            <Route exact path="/ecommerce-website" element={<Home />} />
             <Route exact path="/" element={<Home />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/blog" element={<Blog />} />

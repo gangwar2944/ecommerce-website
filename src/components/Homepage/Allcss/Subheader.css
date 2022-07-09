@@ -52,6 +52,10 @@
 @media(max-width:800px) {
     .hero h2{
         font-size: 40px;
+        
+    }
+    .hero{
+        height: 70vh;
     }
     
 }

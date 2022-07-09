@@ -1,3 +1,4 @@
+import {AiFillFacebook,AiFillInstagram,AiFillTwitterCircle,AiFillYoutube} from "react-icons/ai"
 const Footer = () => {
     return (
         <>
@@ -10,10 +11,10 @@ const Footer = () => {
                 <div><span>hours</span> <small>24X7 </small></div>
                 <h2>Follow us</h2>
                 <div class="icons">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" style={{backgroundColor:"blue"}}><AiFillFacebook/></a>
+                    <a href="#" style={{backgroundColor:"#fb3958"}}><AiFillInstagram/></a>
+                    <a href="#" style={{backgroundColor:"#00acee"}}><AiFillTwitterCircle/></a>
+                    <a href="#" style={{backgroundColor:"red"}}><AiFillYoutube/></a>
                 </div>
             </div>
             <div class="about">

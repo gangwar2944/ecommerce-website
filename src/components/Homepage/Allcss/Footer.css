@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 20px;
+    margin: 20px 0;
     /* height: 40vh; */
     text-transform: capitalize;
 }
@@ -46,7 +46,14 @@
     
 }
 .icons a{
-    color: #0b0b0c;
+    color: #FFF;
+    background-color: rgb(17, 17, 17);
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
 }
 .copy-right{
     margin: auto;
